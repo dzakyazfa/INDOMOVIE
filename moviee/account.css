@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: -webkit-linear-gradient(right, #746630, #7e670e);
+    padding: 0 !important;
+}
+.navbar-brand img{
+    height: 45px;
+    padding-left: 20px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.fa-bars{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+/*---------banner section-------*/
+#banner{
+    background-image: -webkit-linear-gradient(right, #746630, #7e670e);
+    color: #fff;
+    padding-top: 5%;
+}
+.title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 74px;
+}
+.isi{
+    font-size: 17px;
+    font-weight: 600;
+}
+.play-btn{
+    width: 45px;
+    margin: 20px;
+}
+#banner a{
+    color: #bba345 !important;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Mogra', cursive;
+}
+.img-log{
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+}
+.bottom-img{
+    margin-top: 10px;;
+    width: 100%;
+}
+/*VISI MISI*/
+#indomovie{
+    padding: 80px 0;
+}
+.visi-img{
+    height: 140px;
+}
+.misi-img{
+    height: 140px;
+}
+.power-img{
+    height: 227px;
+}
+.vm h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.titlee{
+    margin-bottom: 75px;
+}
+.titlee::before{
+    content: '';
+    background: #bba345;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 4px;
+    transform: translateY(63px);
+}
+.titlee::after{
+    content: '';
+    background: #bba345;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    border-radius: 4px;
+    transform: translateY(8px);
+}
+/*sejarah*/
+#favorite{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.sej-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+.poto img{
+    height: 500px;
+}
+/*social media*/
+#logout{
+    padding: 100px 0;
+}
+#social-media p{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.social-icons img{
+    width: 80px;
+    transition: 0.5s;
+}
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+/*----------akhir-------*/
+#footer{
+    background-image: -webkit-linear-gradient(right, #077381, #2fc4c9);
+    color: #fff;
+}
+.footer-img{
+    width: 100%;
+}
+.footer-box{
+    margin-top: 3%;
+    padding: 20px;
+}
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-box p{
+    font-family: 'Raleway', sans-serif;
+}
+.footer-box .fa{
+    margin-right: 5px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: -webkit-linear-gradient(right, #077381, #2fc4c9);
+}

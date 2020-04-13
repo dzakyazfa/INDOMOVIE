@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Lato', sans-serif;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-color: black;
+    padding: 0 !important;
+}
+.navbar-brand{
+    color: #bba345 !important;
+    font-weight: 500;
+    padding-left: 20px;
+    size:17px;
+    font-family: 'Mogra', cursive;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 500;
+    float: right;
+    text-align: left;
+    font-size: 15px;
+}
+.fa-bars{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+.img{
+    height: 248px;
+    width: 140px;
+}
+#card {
+    background: #3b3b3b;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.65);
+    height: 180px;
+    margin: 4rem auto 8.1rem auto;
+    width: 790px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#card-content {
+    padding: 12px 44px;
+    margin-bottom: 4px;
+    color: #b3b3b3;
+}
+#card-title {
+    font-family: "Lato", sans-serif;
+    padding-bottom: 23px;
+    font-weight: bold;
+    padding-top: 13px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.underline-title {
+    background: -webkit-linear-gradient(right, #292929, #292929);
+    height: 2px;
+    margin: .1rem auto 0 auto;
+    width: 149px;
+}
+#home{
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 10px;
+}
+.titlee{
+    font-weight: 600;
+    font-family:'Raleaway', sans-serif;
+    font-size: 40px;
+}
+.title{
+    font-size: 15.5px;
+    color: rgb(82, 82, 82);
+    font-style: normal;
+}
+#film{
+    padding-top: 14px;
+    color: #fff;
+    font-size: -9px;
+    font-display: none;
+    padding-top: 30px;
+}
+.poster-img{
+    height: 248px;
+    width: 160px;
+    border-radius: 8px; 
+}
+.poster-img:hover{opacity: 0.5; background-image: url(image/play\ \(1\).png)}
+.box{
+    padding: 0 13px 0 13px;
+}
+.font{
+    text-decoration: none;
+    color: #fff;
+    list-style-type : none;
+    text-decoration-style: none;
+}
+#film a{
+    text-decoration: none;
+}
+.font:hover{color : #d4ca35}
+
+
