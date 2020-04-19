@@ -49,8 +49,10 @@ body{
     height: 180px;
     margin: 4rem auto 8.1rem auto;
     width: 790px;
+    padding-top: 3px;
     text-align: center;
     margin-bottom: 20px;
+    margin-top: 32px;
 }
 #card-content {
     padding: 12px 44px;
@@ -62,6 +64,7 @@ body{
     padding-bottom: 23px;
     font-weight: bold;
     padding-top: 13px;
+    margin-bottom: -6px;
     text-align: center;
     color: rgb(255, 255, 255);
 }
@@ -98,7 +101,7 @@ body{
     width: 160px;
     border-radius: 8px; 
 }
-.poster-img:hover{opacity: 0.5; background-image: url(image/play\ \(1\).png)}
+.poster-img:hover{opacity: 0.5; box-shadow: 2px #d4ca35;}
 .box{
     padding: 0 13px 0 13px;
 }

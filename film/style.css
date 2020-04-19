@@ -15,10 +15,11 @@ body{
     padding: 0 !important;
 }
 .navbar-brand{
-    color: #fff !important;
+    color: #bba345 !important;
     font-weight: 500;
     padding-left: 20px;
-    size:15px;
+    size:17px;
+    font-family: 'Mogra', cursive;
 }
 .navbar-nav li{
     padding: 0 10px;
@@ -37,8 +38,12 @@ body{
 .navbar-toggler{
     outline: none !important;
 }
+.img{
+    height: 248px;
+    width: 140px;
+}
 #movie{
-    padding-top: 40px;
+    padding-top: 20px;
 }
 .containerr{
     display: flex;

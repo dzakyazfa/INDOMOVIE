@@ -9,6 +9,9 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="assets/js/jquery.js"></script> 
+    <script src="assets/js/popper.js"></script> 
+    <script src="assets/js/bootstrap.js"></script>
 </head>
 <?php include 'cek-login.php'; ?>
 <body>
@@ -45,7 +48,7 @@
           <div class="col-md-6">
             <p class="title">INDOMOVIE</p>
             <p class="isi"><?php echo "Selamat Datang ".$_SESSION['username']; echo" Dengan menjadi member, kamu bisa mendapatkan akses ke halaman ini, terima kasih atas kepercayaannya untuk menggunakan situs kami. Salam Hormat, INDOMOVIE Team";  ?></p>
-            <a href="index.php"><img src="image/play.png" class="play-btn">INDOMOVIE</a>
+            <a href="indexxx.php"><img src="image/play.png" class="play-btn">INDOMOVIE</a>
           </div>
           <div class="col-md-6 text-center">
             <img src="image/film.png" class="img-log">
@@ -55,53 +58,64 @@
       <img src="image/oo.png" class="bottom-img">
     </section>
 
-    <!--VISI MISI-->
-
     <section id="indomovie">
-      <div class="container text-center">
-        <h1 class="titlee">VISI MISI</h1>
-        <div class="row text-center">
-          <div class="col-md-4 vm">
-            <img src="image/kisspng-statistics-indonesia-organization-bps-kabupaten-pa-foxit-reader-5b0775745172c7.0901421315272154763336.png" class="visi-img">
-            <h4>Visi</h4>
-            <p>Pelopor data statistik terpercaya untuk semua</p>
-          </div>
-          <div class="col-md-4 vm">
-            <img src="image/1.png" class="power-img">
-          </div>
-          <div class="col-md-4 vm">
-            <img src="image/kisspng-statistics-indonesia-organization-bps-kabupaten-pa-foxit-reader-5b0775745172c7.0901421315272154763336.png" class="misi-img">
-            <h4>Misi</h4>
-            <p>1. Menyediakan data statistik berkualitas melalui kegiatan statistik yang terintegrasi dan berstandar nasional maupun internasional.
-              
-              2. Memperkuat Sistem Statistik Nasional yang berkesinambungan melalui pembinaan dan koordinasi di bidang statistik
-              
-              3. Membangun insan statistik yang profesional, berintegritas dan amanah untuk kemajuan perstatistikan</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--sejarah-->
-    <section id="favorite">
       <div class="container">
-        <h1 class="titlee text-center">SEJARAH KAMI</h1>
+        <h1 class="titlee text-center">INDOMOVIE</h1>
         <div class="row">
           <div class="col-md-6 sejarah">
-            <p class="sej-title">HISTORY</p>
-            <p>Badan Pusat Statistik adalah Lembaga Pemerintah Non Kementerian yang bertanggung jawab langsung kepada Presiden. Sebelumnya, BPS merupakan Biro Pusat Statistik, yang dibentuk berdasarkan UU Nomor 6 Tahun 1960 tentang Sensus dan UU Nomer 7 Tahun 1960 tentang Statistik. Sebagai pengganti kedua UU tersebut ditetapkan UU Nomor 16 Tahun 1997 tentang Statistik. Berdasarkan UU ini yang ditindaklanjuti dengan peraturan perundangan dibawahnya, secara formal nama Biro Pusat Statistik diganti menjadi Badan Pusat Statistik.</p>
+            <p class="sej-title">Tentang Kami</p>
+            <p>INDOMOVIE adalah situs streaming dan download film. Kami membuat situs ini agar masyarakat indonesia terhibur dan tidak nolep. Maap yak kalau film nya bajakan awoakwaok. Salam, INDOMOVIE Team </p>
           </div>
           <div class="col-md-6 poto">
-            <img src="image/asik.png" class="imagae-fluidd">
+            <img src="image/video.png" class="image-fluid">
           </div>
         </div>
       </div>
     </section>
-    <!--contact-->
+
+    <!--Fav-->
+    <section id="favorite">
+      <div class="container">
+        <h1 class="titlee text-center">FAVORITE</h1>
+        <div class="row">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="poster/venom.jpg" class="d-block w-100" alt="">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Venom</h5>
+        <p>2018</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="poster/blackpnthr.jpg" class="d-block w-100" alt="">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Black Panther</h5>
+        <p>2018</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+        </div>
+      </div>
+    </section>
+    <!--Logout-->
     <section id="logout">
       <div class="container text-center">
-        <p>SOCIAL MEDIA</p>
-        <a href="logout.php">Logout</a>
+        <p>LOGOUT</p>
+        <a href="logout.php" class="btn">Logout</a>
       </div>
     </section>
 
@@ -111,14 +125,9 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4 footer-box">
-            <img src="image/kisspng-statistics-indonesia-organization-bps-kabupaten-pa-foxit-reader-5b0775745172c7.0901421315272154763336.png">
-            <p>Subscribe Channel YouTube BPS Statistics untuk informasi yang lebih banyak</p>
+            <p></p>
           </div>
           <div class="col-md-4 footer-box">
-            <p><b>HUBUNGI KAMI</b></p>
-            <p><i class="fa fa-map-marker"></i> Sawojajar, Malang</p>
-            <p><i class="fa fa-phone"></i> +62 85257680411</p>
-            <p><i class="fa fa-envelope-o"></i> dzakyazfa@gmail.com</p>
           </div>
         </div>
       </div>

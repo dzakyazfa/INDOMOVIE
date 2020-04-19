@@ -17,7 +17,7 @@
     <section id="nav-bar">
     
         <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="login.php">INDOMOVIE</a>
+      <a class="navbar-brand" href="account.php">INDOMOVIE</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fa fa-bars"></i>
       </button>
@@ -50,10 +50,6 @@
             </div>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-2">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
     </div>
       </div>
     </nav>
@@ -65,7 +61,11 @@
             <h3>PERHATIAN</h3>
             <div class="underline-title"></div>
           </div>
-          <h6>Di Situs ini banyak film yang mengandung unsur sara dan ber rating R dan 18+. Jadi kami mohon kerja sama dan perhatianya serta kebijakan para penonton. Saat ini anda sedang melanjutkan sebagai guest. Terima Kasih</h6>
+          <h6>
+          <?php
+          echo"Selamat Datang ".$_SESSION['username']; echo". Terima Kasih sudah berlangganan, Kami mohon kebijakannya dalam menanggapi film-film yang ada di situs ini. Salam hormat, INDOMOVIE Team, Terima Kasih";
+          ?>
+        </h6>
         </div>
         </div>
         <section id="home">
@@ -78,7 +78,6 @@
           </div>
         </section>
 
-
         <section id="film">
           <div class="a">
             <div class="container">
@@ -90,9 +89,9 @@
                   </a>
                 </div>
                 <div class="col-md-2″>.col-md-2 box">
-                    <a href="http://localhost/film/spiderman.html" class="font">
-                  <img src="poster/Spider-Man_Homecoming_poster.jpg" class="poster-img">
-                  <h5>Spider-Man:<p> Homecoming</h5>
+                    <a href="http://localhost/film/blackpnthr.html" class="font">
+                  <img src="poster/blackpnthr.jpg" class="poster-img">
+                  <h5>Black Panther</h5>
                 </a>
                   </div>
                 <div class="col-md-2″>.col-md-2 box">
@@ -102,9 +101,9 @@
                 </a>
                 </div>
                 <div class="col-md-2″>.col-md-2 box">
-                    <a href="http://localhost/film/infinitywar.html" class="font">
-                    <img src="poster/Avengers_Infinity_War_poster.jpg" class="poster-img">
-                    <h5>Avengers:<p>Infinity War</h5>
+                    <a href="http://localhost/film/coco.html" class="font">
+                    <img src="poster/coco.jpg" class="poster-img">
+                    <h5>Coco</h5>
                     </a>
                 </div>
                 <div class="col-md-2″>.col-md-2 box">
@@ -114,87 +113,88 @@
                       </a>
                 </div>
                 <div class="col-md-2″>.col-md-2 box">
-                    <a href="http://localhost/film/endgame.html" class="font">
-                    <img src="poster/endgame.jpg" class="poster-img">
-                    <h5>Avengers:<p>Endgame</h5>
+                    <a href="http://localhost/film/thenun.html" class="font">
+                    <img src="poster/TheNunPoster.jpg" class="poster-img">
+                    <h5>The Nun</h5>
                     </a>
                 </div>
                 <div class="col-md-2″>.col-md-2 box">
-                    <a href="http://localhost/film/cptamerica.html" class="font">
+                    <a href="http://localhost/film/firstavenger.html" class="font">
                   <img src="poster/Captain_America_The_First_Avenger_poster.jpg" class="poster-img">
                   <h5>Captain America: <p>The First Avenger</h5>
                   </a>
                 </div>
                 <div class="col-md-2″>.col-md-2 box">
-                    <a href="http://localhost/film/spiderman.html" class="font">
-                  <img src="poster/ironman1.jpg" class="poster-img">
-                  <h5>Iron Man</h5>
+                    <a href="http://localhost/film/wwz.html" class="font">
+                  <img src="poster/world war z.jpg" class="poster-img">
+                  <h5>World War Z</h5>
                 </a>
                   </div>
                 <div class="col-md-2″>.col-md-2 box">
-                  <a href="http://localhost/film/venom.html" class="font">
+                  <a href="http://localhost/film/wintersldr.html" class="font">
                   <img src="poster/winter_soldier.jpg" class="poster-img">
                   <h5>Captain America:<p>The Winter Soldier</h5>
                 </a>
                 </div>
                 <div class="col-md-2″>.col-md-2 box">
-                    <a href="http://localhost/film/infinitywar.html" class="font">
-                    <img src="poster/Iron_Man_2_poster.jpg" class="poster-img">
-                    <h5>Iron Man 2</h5>
+                    <a href="http://localhost/film/boboiboy.html" class="font">
+                    <img src="poster/boboiboy.jpg" class="poster-img">
+                    <h5>BoBoiBoy <p>Movie 2</h5>
                     </a>
                 </div>
                 <div class="col-md-2″>.col-md-2 box">
-                    <a href="https://drive.google.com/drive/u/2/folders/1EI-H3ZmXbJIAbe6zl1vwBfCyunkGuXiK" class="font">
+                    <a href="" class="font">
                       <img src="poster/Iron_Man_3_theatrical_poster.jpg" class="poster-img">
                       <h5>Iron Man 3</h5>
                       </a>
                 </div>
                 <div class="col-md-2″>.col-md-2 box">
-                    <a href="https://drive.google.com/drive/u/2/folders/1EI-H3ZmXbJIAbe6zl1vwBfCyunkGuXiK" class="font">
+                    <a href="" class="font">
                     <img src="poster/civilwar.jpg" class="poster-img">
                     <h5>Captain America:<p>Civil War</h5>
                     </a>
                 </div>
                 <div class="col-md-2″>.col-md-2 box">
-                    <a href="http://localhost/film/antman.html" class="font">
-                  <img src="poster/Captain_America_The_First_Avenger_poster.jpg" class="poster-img">
-                  <h5>Captain America: <p>The First Avenger</h5>
+                    <a href="" class="font">
+                  <img src="poster/jl.jpg" class="poster-img">
+                  <h5>Justice<p> League</h5>
                   </a>
                 </div>
                 <div class="col-md-2″>.col-md-2 box">
-                    <a href="http://localhost/film/spiderman.html" class="font">
-                  <img src="poster/ironman1.jpg" class="poster-img">
-                  <h5>Iron Man</h5>
+                    <a href="" class="font">
+                  <img src="poster/dpm2.jpg" class="poster-img">
+                  <h5>Despicable <p>Me 2</h5>
                 </a>
                   </div>
                 <div class="col-md-2″>.col-md-2 box">
-                  <a href="http://localhost/film/venom.html" class="font">
-                  <img src="poster/winter_soldier.jpg" class="poster-img">
-                  <h5>Captain America:<p>The Winter Soldier</h5>
+                  <a href="" class="font">
+                  <img src="poster/ffh.jpg" class="poster-img">
+                  <h5>Spider-Man:<p>Far From Home</h5>
                 </a>
                 </div>
                 <div class="col-md-2″>.col-md-2 box">
-                    <a href="http://localhost/film/infinitywar.html" class="font">
-                    <img src="poster/Iron_Man_2_poster.jpg" class="poster-img">
-                    <h5>Iron Man 2</h5>
+                    <a href="" class="font">
+                    <img src="poster/lionking.jpg" class="poster-img">
+                    <h5>The Lion King</h5>
                     </a>
                 </div>
                 <div class="col-md-2″>.col-md-2 box">
-                    <a href="https://drive.google.com/drive/u/2/folders/1EI-H3ZmXbJIAbe6zl1vwBfCyunkGuXiK" class="font">
-                      <img src="poster/Iron_Man_3_theatrical_poster.jpg" class="poster-img">
-                      <h5>Iron Man 3</h5>
+                    <a href="" class="font">
+                      <img src="poster/dedpul2.jpg" class="poster-img">
+                      <h5>Deadpool 2</h5>
                       </a>
                 </div>
                 <div class="col-md-2″>.col-md-2 box">
-                    <a href="https://drive.google.com/drive/u/2/folders/1EI-H3ZmXbJIAbe6zl1vwBfCyunkGuXiK" class="font">
-                    <img src="poster/civilwar.jpg" class="poster-img">
-                    <h5>Captain America:<p>Civil War</h5>
+                    <a href="" class="font">
+                    <img src="poster/badboys2.jpg" class="poster-img">
+                    <h5>Bad Boys II</h5>
                     </a>
                 </div>
               </div>
             </div>
             </div>
           </section>
+        
         
 
 </body>

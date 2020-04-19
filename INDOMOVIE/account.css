@@ -60,6 +60,7 @@ body{
     font-family: 'Mogra', cursive;
 }
 .img-log{
+    margin-left: 8px;
     margin-top: 20px;
     width: 300px;
     height: 300px;
@@ -68,18 +69,11 @@ body{
     margin-top: 10px;;
     width: 100%;
 }
-/*VISI MISI*/
 #indomovie{
     padding: 80px 0;
 }
-.visi-img{
-    height: 140px;
-}
-.misi-img{
-    height: 140px;
-}
-.power-img{
-    height: 227px;
+.image-fluid{
+    height: 380px;
 }
 .vm h4{
     padding: 5px;
@@ -112,7 +106,6 @@ body{
     border-radius: 4px;
     transform: translateY(8px);
 }
-/*sejarah*/
 #favorite{
     background: #f8f9fa;
     padding-bottom: 50px;
@@ -123,28 +116,45 @@ body{
     font-weight: 600;
     margin-top: 8%;
 }
-.poto img{
-    height: 500px;
+.carousel-caption h5{
+    font-size: 40px;
+}
+.carousel-caption p{
+    font-size: 25px;
 }
 /*social media*/
 #logout{
-    padding: 100px 0;
+    padding: 100px 2;
+    
 }
-#social-media p{
+#logout p{
     font-size: 40px;
     font-weight: 600;
     margin-bottom: 30px;
 }
-.social-icons img{
-    width: 80px;
-    transition: 0.5s;
+.btn{
+    display: block;
+    width: 100px;
+    height: 40px;
+    border-radius: 35px;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(to right, #bba345, #a79037, #a58e33);
+    background-size: 200%;
+    font-size: 1.4rem;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    margin: 1rem 0;
+    cursor: pointer;
+    transition: .5s;
 }
-.social-icons a:hover img{
-    transform: translateY(-10px);
+.btn:hover{
+    background-position: right;
 }
 /*----------akhir-------*/
 #footer{
-    background-image: -webkit-linear-gradient(right, #077381, #2fc4c9);
+    background-image: -webkit-linear-gradient(right, #746630, #7e670e);
     color: #fff;
 }
 .footer-img{
@@ -169,5 +179,5 @@ body{
     text-align: center;
     padding-top: 7px;
     border-radius: 2px;
-    background-image: -webkit-linear-gradient(right, #077381, #2fc4c9);
+    background-image: -webkit-linear-gradient(right, #746630, #7e670e);
 }
