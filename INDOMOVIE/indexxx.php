@@ -83,7 +83,7 @@
             <div class="container">
               <div class="row text-center">
                 <div class="col-md-2″>.col-md-2 box">
-                    <a href="http://localhost/film/antman.html" class="font">
+                    <a href="http://localhost/film/enmen.html" class="font">
                   <img src="poster/unnamed.jpg" class="poster-img">
                   <h5>Ant-Man</h5>
                   </a>
@@ -143,51 +143,51 @@
                     </a>
                 </div>
                 <div class="col-md-2″>.col-md-2 box">
-                    <a href="" class="font">
+                    <a href="http://localhost/film/im3.html" class="font">
                       <img src="poster/Iron_Man_3_theatrical_poster.jpg" class="poster-img">
                       <h5>Iron Man 3</h5>
                       </a>
                 </div>
                 <div class="col-md-2″>.col-md-2 box">
-                    <a href="" class="font">
+                    <a href="http://localhost/film/civilwar.html" class="font">
                     <img src="poster/civilwar.jpg" class="poster-img">
                     <h5>Captain America:<p>Civil War</h5>
                     </a>
                 </div>
                 <div class="col-md-2″>.col-md-2 box">
-                    <a href="" class="font">
+                    <a href="http://localhost/film/jl.html" class="font">
                   <img src="poster/jl.jpg" class="poster-img">
                   <h5>Justice<p> League</h5>
                   </a>
                 </div>
                 <div class="col-md-2″>.col-md-2 box">
-                    <a href="" class="font">
+                    <a href="http://localhost/film/dpm2.html" class="font">
                   <img src="poster/dpm2.jpg" class="poster-img">
                   <h5>Despicable <p>Me 2</h5>
                 </a>
                   </div>
                 <div class="col-md-2″>.col-md-2 box">
-                  <a href="" class="font">
+                  <a href="http://localhost/film/ffh.html" class="font">
                   <img src="poster/ffh.jpg" class="poster-img">
                   <h5>Spider-Man:<p>Far From Home</h5>
                 </a>
                 </div>
                 <div class="col-md-2″>.col-md-2 box">
-                    <a href="" class="font">
+                    <a href="http://localhost/film/lk.html" class="font">
                     <img src="poster/lionking.jpg" class="poster-img">
                     <h5>The Lion King</h5>
                     </a>
                 </div>
                 <div class="col-md-2″>.col-md-2 box">
-                    <a href="" class="font">
+                    <a href="http://localhost/film/dp2.html" class="font">
                       <img src="poster/dedpul2.jpg" class="poster-img">
                       <h5>Deadpool 2</h5>
                       </a>
                 </div>
                 <div class="col-md-2″>.col-md-2 box">
-                    <a href="" class="font">
-                    <img src="poster/badboys2.jpg" class="poster-img">
-                    <h5>Bad Boys II</h5>
+                    <a href="http://localhost/film/bb.html" class="font">
+                    <img src="poster/bb.jpg" class="poster-img">
+                    <h5>Bad Boys<p>for Life</h5>
                     </a>
                 </div>
               </div>

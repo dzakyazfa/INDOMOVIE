@@ -75,39 +75,16 @@
 
     <!--Fav-->
     <section id="favorite">
-      <div class="container">
-        <h1 class="titlee text-center">FAVORITE</h1>
+    <div class="container">
+        <h1 class="titlee text-center">ABOUT CREATOR</h1>
         <div class="row">
-        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="poster/venom.jpg" class="d-block w-100" alt="">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Venom</h5>
-        <p>2018</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="poster/blackpnthr.jpg" class="d-block w-100" alt="">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Black Panther</h5>
-        <p>2018</p>
-      </div>
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+          <div class="col-md-6 sejarah">
+            <p class="sej-title">Tentang Kreator</p>
+            <p>Dzaky Azfa Faiz bla bla bla, kepanjangan namanya. Biasa dipanggil oleh teman temanya "aa'". Lahir di Bandung, 29 April 2004, iya habis ini ultah gess wkwk. Mempunyai cita-cita membuat situs streaming untuk menolong masyarakat Indonesia dari kenolepan yang tiada akhir. Dukung kami teyus ya!!, Hatur Nuhun.</p>
+          </div>
+          <div class="col-md-6 poto">
+            <img src="image/aa.JPG" class="img-fluid">
+          </div>
         </div>
       </div>
     </section>
